@@ -1,6 +1,6 @@
 function Buttons({ name }) {
     return  <li className="navbar-item">
-                <button className="">{name}</button>
+        <button className="button is-primary is-responsive">{name}</button>
             </li>
 }
 

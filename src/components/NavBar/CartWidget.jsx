@@ -4,7 +4,7 @@ function CartWidget() {
     return (
         <div className="navbar-item Cartwidget">
             <p>0</p>
-            <FaCartArrowDown />
+            <FaCartArrowDown className="cartarrowdown"/>
         </div>
     )
 }
