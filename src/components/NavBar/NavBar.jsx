@@ -1,5 +1,6 @@
 import CartWidget from "./CartWidget";
-import logo from "./../img/logo.png"
+import Buttons from "./Buttons";
+import logo from "./../../img/logo.png"
 
 function NavBar() {
 
@@ -10,9 +11,9 @@ function NavBar() {
             </div>
             <div className="navbar-menu">
                 <ul className="navbar-start">
-                    <li className="navbar-item"><button>Cursos</button></li>
-                    <li className="navbar-item"><button>Certificados</button></li>
-                    <li className="navbar-item"><button>Bootcamp</button></li>
+                    <Buttons name={"Cursos"}/>
+                    <Buttons name={"Certificados"}/>
+                    <Buttons name={"Bootcamp"}/>
                 </ul>
                 <div className="navbar-end">
                     <CartWidget />
