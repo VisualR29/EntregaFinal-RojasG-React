@@ -19,32 +19,40 @@
 /*! ITEMLIST */
 
 .Hero {
-    /* height: 80vh;
+    height: 90vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.163), rgba(0, 0, 0, 0.312)), url(./../img/banner.jpg);
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
 }
 
-.Itemlist {}
+.Itemlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-.tarjetas{
-    width: 30vw;
+.tarjetas {
+    width: 25vw;
     height: auto;
+    border-radius: 15px;
+    border: 1px solid rgb(31, 254, 205);
+    padding: 30px;
+    margin: 50px;
 }
 
-.tarjetas div figure{
+.tarjetas div figure {
     width: 100%;
 }
 
-.tarjetas div figure img{
+.tarjetas div figure img {
     width: 80%;
     height: auto;
 }
+
 /*! CARTWIDGET */
 
 .Cartwidget {
@@ -53,10 +61,10 @@
     margin-right: 3em;
 }
 
-.Cartwidget p{
+.Cartwidget p {
     font-size: .7em;
 }
 
-.cartarrowdown{
+.cartarrowdown {
     font-size: 1.5em;
 }
