@@ -29,6 +29,13 @@
     align-items: center;
 }
 
+.Hero h2, .Hero h3{
+    font-size: 2.5em;
+    color: rgba(31, 254, 206, 0.726);
+    font-weight: bolder;
+    margin-top: 7vw;
+}
+
 .Itemlist {
     display: flex;
     flex-wrap: wrap;
