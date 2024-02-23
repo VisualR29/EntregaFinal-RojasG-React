@@ -1,28 +1,29 @@
 import ItemCount from "../ItemCount/ItemCount";
+import './ItemDetail.css';
 
 const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
     return (
-        <article className="CardItem">
-            <header className="Header">
-                <h2 className="ItemHeader">
+        <article className="CardItemDetail">
+            <header className="HeaderDetail">
+                <h2 className="ItemHeaderDetail">
                     {name}
                 </h2>
             </header>
-            <picture>
-                <img src={ img } alt={name} className="ItemImg"/>
+            <picture className="ImageContainerDetail">
+                <img src={ img } alt={name} className="ItemImgDetail"/>
             </picture>
-            <section>
-                <p className="Info">
-                    Categoria: {category}
+            <section className="DescriptionSectionDetail">
+                <p className="InfoDetail">
+                    <b>Categoria:</b> {category}
                 </p>
-                <p className="Info">
-                    Descripcion: {description}
+                <p className="InfoDetail">
+                    <b>Descripcion:</b> {description}
                 </p>
-                <p className="Info">
-                    Precio: ${price}
+                <p className="InfoDetail">
+                    <b>Precio:</b> ${price}
                 </p>
             </section>
-            <footer className="ItemFooter">
+            <footer className="ItemFooterDetail">
                 <ItemCount initial={1} stock={stock} onAdd={(quabtity)=>console.log('Cantidad agregada ')}/>
             </footer>
         </article>

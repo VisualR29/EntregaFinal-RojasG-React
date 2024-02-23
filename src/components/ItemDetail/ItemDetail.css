@@ -1,0 +1,51 @@
+.CardItemDetail {
+    width: 60vw;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.CardItemDetail:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.HeaderDetail {
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.ItemHeaderDetail {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.ImageContainerDetail {
+    overflow: hidden;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.ItemImgDetail {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.DescriptionSectionDetail {
+    padding: 16px;
+}
+
+.InfoDetailDetail {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.ItemFooterDetail {
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e0e0e0;
+}

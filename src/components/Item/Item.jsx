@@ -1,4 +1,5 @@
 import './Item.css'
+import Buttons from '../NavBar/Buttons';
 import { Link } from 'react-router-dom';
 
 const Item = ({ id, name, img, price, stock }) => {
@@ -22,8 +23,8 @@ const Item = ({ id, name, img, price, stock }) => {
                     Stock disponible: {stock}
                 </p>
             </section>
-            <footer>
-                <Link to={'/item/${id'} className="OptionButton">Ver detalle</Link>
+            <footer className='DetailsSection'>
+                <Link to={`/item/${id}`} className="DetailsButton"><Buttons className="is-three-fifths" name='Ver detalle'/></Link>
             </footer>
         </article>
     )

@@ -5,7 +5,7 @@ const products = [
         price: 2500,
         category: 'certificado',
         img: 'https://cdc.tecmilenio.mx/hubfs/Thumbnails_CDC/Octubre/Data%20Science/Cre-Data%20Science.jpg',
-        stock: 50,
+        stock: 32,
         description: 'En este certificado el participante aprenderá sobre los lenguajes y herramientas que le apoyarán en el análisis y representación de datos. Aprenderá sobre data wrangling, un proceso vital para poder preparar la información para tareas más avanzadas, la diferencia respecto al data mining, las habilidades que requieres para utilizarlo y los retos a los que te enfrentarás para ello. Por último, aprenderá qué es la IA, su evolución, los campos que abarca, etapas, tipos y aplicaciones.'
     },
     {
@@ -14,7 +14,7 @@ const products = [
         price: 4037,
         category: 'bootcamp',
         img: 'https://cdc.tecmilenio.mx/hubfs/Thumbnails_CDC/junio%202023/Varios/An%C3%A1lisis-de-datos-con-Python-T.jpg',
-        stock: 50,
+        stock: 10,
         description: 'En este curso el aprendedor obtendrá los conocimientos teóricos y prácticos para procesar grandes volúmenes de datos y realizar análisis más robustos, aplicando y generando diversos modelos tanto estadísticos como matemáticos que te permitan encontrar los patrones y las relaciones en los datos; con el objetivo de producir visualizaciones avanzadas para facilitar el entendimiento de la información.'
     },
     {
@@ -23,7 +23,7 @@ const products = [
         price: 4320,
         category: 'certificado',
         img: 'https://cdc.tecmilenio.mx/hubfs/Thumbnails_CDC/agosto/Cer-Big%20Data.jpg',
-        stock: 50,
+        stock: 27,
         description: 'En este certificado el participante aprenderá a ampliar tus conocimientos en Big Data y tecnologías existentes, así como el almacenamiento y tratamiento de grandes volúmenes de datos.'
     },
     {
@@ -32,7 +32,7 @@ const products = [
         price: 2500,
         category: 'certificado',
         img: 'https://cdc.tecmilenio.mx/hubfs/Thumbnails_CDC/septiembre/Productividad%20Basada%20en%20Herramientas/Cred-Computacio%CC%81n-Avanzada-en-Java.jpg',
-        stock: 50,
+        stock: 29,
         description: 'En este certificado el participante aprenderá todas las herramientas para crear aplicaciones orientadas a objetos avanzadas, con entornos de trabajo o Frameworks ampliamente usados, con base en los principios de la programación estructurada y patrones de diseño, escalables y eficientes.'
     },
     {
@@ -41,7 +41,7 @@ const products = [
         price: 7308,
         category: 'bootcamp',
         img: 'https://cdc.tecmilenio.mx/hubfs/Thumbnails_CDC/Enero%202023/Agilidad-para-tu-Negocio-PM-agile-T.jpg',
-        stock: 50,
+        stock: 14,
         description: 'Este curso el aprendedor conocerá los fundamentos de la mentalidad ágil, así como sus principales marcos de trabajo, prácticas, valores y principios que permitan al aprendedor desarrollar y dirigir una estrategia de cambio en una organización.'
     },
     {
@@ -50,7 +50,7 @@ const products = [
         price: 4320,
         category: 'certificado',
         img: 'https://cdc.tecmilenio.mx/hubfs/Thumbnails_CDC/septiembre/Animacion%20digital/Cert-Animacio%CC%81n-Digital-3D.jpg',
-        stock: 50,
+        stock: 34,
         description: 'En este certificado el participante aprenderá a generar objetos tridimensionales con textura y material a partir de diseños bidimensionales, producir movimientos sobre un modelo tridimensional, así como adaptar sistemas de esqueletos en 3D y aplicar técnicas de luz y textura para crear animaciones de alta calidad.'
     },
     {
@@ -77,7 +77,7 @@ const products = [
         price: 7308,
         category: 'bootcamp',
         img: 'https://cdc.tecmilenio.mx/hubfs/Thumbnails_CDC/Enero%202023/Backend-con-Node-js-Nivel-Avanzado-T.jpg',
-        stock: 50,
+        stock: 15,
         description: 'En este curso el aprendedor conocerá sobre los módulos en node.js y su seguridad, las bases de datos por medio de las cuales pueden emplearlo, así como también sobre las pruebas de calidad y despliegues más utilizados.'
     },
     {
@@ -86,7 +86,7 @@ const products = [
         price: 9600,
         category: 'curso',
         img: 'https://cdc.tecmilenio.mx/hubfs/Thumbnails_CDC/Diciembre%2022/Inteligencia%20de%20Mercados/Anal%C3%ADtica%20de%20Datos%20T.jpg',
-        stock: 50,
+        stock: 51,
         description: 'En este microcourse el participante conocerá el modelo de Data Science y Big data, aprenderá sobre la ciencia de datos, así como la preparación de ellos, aprenderá sobre las técnicas necesarias para realizar procesos de almacenamiento, análisis, manipulación y transformación de datos'
     },
     {
@@ -95,7 +95,7 @@ const products = [
         price: 7308,
         category: 'bootcamp',
         img: 'https://cdc.tecmilenio.mx/hubfs/Thumbnails_CDC/Enero%202023/Cloud-&-Network-Security.jpg',
-        stock: 50,
+        stock: 0,
         description: 'En este curso el aprendedor tendrá la oportunidad de conocer más a fondo acerca de la seguridad de la información que se encuentra en la red, en especial la almacenada en la nube, así como las diferentes herramientas que protegen dicha información y como aplicarlas en los sistemas.'
     },
     {
@@ -104,7 +104,7 @@ const products = [
         price: 10500,
         category: 'bootcamp',
         img: 'https://cdc.tecmilenio.mx/hubfs/Thumbnails_CDC/junio%202023/Business-Intelligence-T.jpg',
-        stock: 50,
+        stock: 12,
         description: 'En este curso el aprendedor conocerá sobre los principios básicos de la inteligencia de negocios, sus roles y el marco de trabajo. Además, aprenderá sobre el análisis predictivo y cómo esto puede ayudar a las organizaciones. La importancia de la visualización de datos, los componentes que lo conforman, así como también el uso que se le debe dar y cuáles son las mejores prácticas para poder contar historias basadas en datos.'
     },
 ];
