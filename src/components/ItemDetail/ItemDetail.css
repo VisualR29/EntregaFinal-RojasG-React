@@ -1,5 +1,5 @@
 .CardItemDetail {
-    width: 60vw;
+    width: 45vw;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     overflow: hidden;
@@ -39,9 +39,9 @@
     padding: 16px;
 }
 
-.InfoDetailDetail {
+.InfoDetail {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .ItemFooterDetail {

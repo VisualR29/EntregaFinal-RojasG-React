@@ -9,14 +9,14 @@ const NavBar = () => {
     return (
         <nav className="navbar Navbar">
             <Link to='/' className="logo">
-                <img src={logo} alt="Skilling Tec logo"/>
+                <img src={logo} alt="Skilling Tec logo" />
             </Link>
             <div className="Categories">
-                <NavLink to={'/category/curso'} className={({isActive})=>isActive ? 'ActiveOption' : 'Option'}><Buttons name='Cursos'/></NavLink>
+                <NavLink to={'/category/curso'} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}><Buttons name='Cursos' /></NavLink>
                 <NavLink to={'/category/certificado'} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}><Buttons name='Certificados' /></NavLink>
                 <NavLink to={'/category/bootcamp'} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}><Buttons name='Bootcamp' /></NavLink>
             </div>
-            <CartWidget/>
+            <CartWidget />
         </nav>
     )
 }
