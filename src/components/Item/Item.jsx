@@ -9,9 +9,11 @@ const Item = ({ id, name, img, price, stock }) => {
                     {name}
                 </h2>
             </header>
-            <picture>
-                <img src={img} alt={name} className="ItemImg" />
-            </picture>
+            <section>
+                <div className='picture'>
+                    <img src={img} alt={name} className="ItemImg" />
+                </div>
+            </section>
             <section>
                 <p className="Info">
                     Precio: ${price}
@@ -21,11 +23,10 @@ const Item = ({ id, name, img, price, stock }) => {
                 </p>
             </section>
             <footer>
-                <Link to={'/item/${id'} className="Option">Ver detalle</Link>
+                <Link to={'/item/${id'} className="OptionButton">Ver detalle</Link>
             </footer>
         </article>
     )
-
 }
 
 
