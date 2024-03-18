@@ -33,8 +33,6 @@ const ItemListContainer = () => {
             })
     }, [categoryId])
 
-    console.log(categoryId)
-
     if (products.length !== 0 && categoryId !== undefined) {
         return (
             <div className='listcontainer'>

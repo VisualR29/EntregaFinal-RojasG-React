@@ -4,6 +4,8 @@ import { CartContext } from "../../context/CartContext"
 const CartItem = ({ id,name,quantity,price }) => {
     const removeItem = useContext(CartContext);
 
+    console.log("Id del objeto: ", id)
+
     return (
         <div>
             <h2>{name}</h2>
