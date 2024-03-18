@@ -2,3 +2,12 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.listcontainer h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #00d0b3;
+
+}
