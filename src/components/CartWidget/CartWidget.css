@@ -1,0 +1,27 @@
+.CartWidget {}
+
+.block {
+    display: none;
+}
+
+.ContenedorCarrito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    background-color: #00d0b3;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+
+.ImagenCarrito {
+    font-size: 20px;
+    color: white;
+}
+
+.CantidadCarrito {
+    font-size: 16px;
+    color: white;
+}

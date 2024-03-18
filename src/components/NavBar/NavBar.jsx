@@ -16,7 +16,9 @@ const NavBar = () => {
                 <NavLink to={'/category/certificado'} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}><Buttons name='Certificados' /></NavLink>
                 <NavLink to={'/category/bootcamp'} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}><Buttons name='Bootcamp' /></NavLink>
             </div>
-            <CartWidget />
+            <div className='CartWidgetContainer'>
+                <CartWidget />
+            </div>
         </nav>
     )
 }

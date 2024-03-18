@@ -4,6 +4,7 @@
 /src/components/Search
 /src/components/Acordeon
 api.js
+AsyncMock.js
 
 
 # dependencies
