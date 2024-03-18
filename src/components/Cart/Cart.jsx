@@ -1,3 +1,4 @@
+import './Cart.css';
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import CartItem from '../CartItem/CartItem';
@@ -8,19 +9,21 @@ const Cart = () => {
 
     if (totalQuantity === 0) {
         return (
-            <div>
+            <div className='noItems'>
                 <h1>No hay items en el carrito</h1>
-                <Link to='/' className='Option'>Productos</Link>
+                <Link to='/' className='BotonCheck'>Productos</Link>
             </div>
         )
     }
 
     return (
-        <div>
+        <div className='cartContainer'>
             {cart.map(p => <CartItem key={p.id}{...p} />)}
             <h3>Total: ${total}</h3>
-            <button onClick={() => clearCart()} className="Button">Limpiar carrito</button>
-            <Link to='/checkout' className="Option">Checkout</Link>
+            <div className='botonesContainer'>
+                <button onClick={() => clearCart()} className="BotonCheck">Limpiar carrito</button>
+                <Link to='/checkout' className="BotonCheck">Checkout</Link>
+            </div>
         </div>
     )
 }

@@ -1,3 +1,4 @@
+import './Checkout.css'
 import { useState, useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { db } from "../../config/firebase";
@@ -72,14 +73,18 @@ const Checkout = () => {
     }
 
     if (loading) {
-        return <h1>Se esta generando su orden...</h1>
+        return <div className="checkoutContainer">
+            <h1>Se esta generando su orden...</h1>
+        </div>
     }
     if (orderId) {
-        return <h1>El id de su orden es: {orderId}</h1>
+        return <div className="checkoutContainer">
+            <h1>El id de su orden es: {orderId}</h1>
+        </div>
     }
 
     return (
-        <div>
+        <div className="checkoutContainer">
             <h1>Checkout</h1>
             <CheckoutForm onConfirm={createOrder} />
         </div>
